@@ -1,0 +1,1 @@
+kubectl delete pods -n website -l=run=ehallmarksolutions
