@@ -1,7 +1,7 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
+        "title": "Welcome to EHallmark Solutions!",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
 
     },
@@ -86,8 +86,8 @@
     ],
     "Team": [{
             "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "name": "Evan Hallmark",
+            "job": "Founder"
         },
         {
             "img": "img/team/02.jpg",
@@ -105,9 +105,9 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "address": "Portland, OR",
+        "phone": "+1 503 555 5555",
+        "email": "info@ehallmarksolutions.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
