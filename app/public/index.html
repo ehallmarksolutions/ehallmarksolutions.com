@@ -18,10 +18,16 @@
     <title>EHallmark Solutions</title>
     <meta name="description" content="">
   <meta name="author" content="@ehallmarksolutions">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   </head>
   
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <div id="root"></div>
+    <script type="text/javascript">
+    if (location.protocol !== 'https:') {
+      location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+    </script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
   <script type="text/javascript" src="js/bootstrap.js"></script> 
   <script type="text/javascript" src="js/SmoothScroll.js"></script> 
