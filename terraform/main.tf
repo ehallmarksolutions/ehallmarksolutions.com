@@ -71,6 +71,8 @@ resource "google_container_cluster" "primary" {
     command = "sleep 90"
   }
 
+  logging_service = "none"
+  
   master_auth {
     username = ""
     password = ""
