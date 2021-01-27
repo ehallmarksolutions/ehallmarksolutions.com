@@ -119,8 +119,8 @@ resource "kubernetes_deployment" "site" {
 
           resources {
             requests {
-              cpu = 0.5
-              memory = "512Mi"
+              cpu = 0.3
+              memory = "256Mi"
             }
           }
         }
