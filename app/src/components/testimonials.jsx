@@ -8,14 +8,14 @@ export class testimonials extends Component {
           <div className="section-title text-center">
             <h2>What our clients say</h2>
           </div>
-          <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div key={`${d.name}-${i}`} className="col-md-4">
+                <div className="row">
+                  <div key={`${d.name}-${i}`} className="col-md-8 col-md-offset-2">
                     <div className="testimonial">
                       <div className="testimonial-image">
                         {" "}
-                        <img src={d.img} alt="" />{" "}
+                        {d.img ? <img src={d.img} alt="" /> : <span></span>} {" "}
                       </div>
                       <div className="testimonial-content">
                         <p>"{d.text}"</p>
@@ -23,9 +23,9 @@ export class testimonials extends Component {
                       </div>
                     </div>
                   </div>
-                ))
-              : "loading"}
-          </div>
+                </div>
+              ))
+            : "loading"}
         </div>
       </div>
     );

@@ -2,135 +2,85 @@
     "Header": {
 
         "title": "Welcome to EHallmark Solutions!",
-        "paragraph": "Test"
+        "paragraph": "My name is Evan Hallmark, and I am a skilled data scientist, data engineer, and cloud architect. Having worked with startups and Fortune 500 companies, I am equipped to solve a wide variety of tasks. Let's connect and see what I can do for you!"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Evan is an expert in solving complex engineering problems using open-source technologies on the cloud. He is an advocate for infrastructure as code, containerization, API microservices, continuous integration and deployment, and proper use of version control systems. Evan can quickly analyze high-level system architectures, as well as deep dive into the actual code. Evan is extremely excited and passionate about working with startups and founders to solve difficult problems that deliver value to the market.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Cloud Expert",
+            "DevOps and CI/CD",
+            "Observability",
+            "Reliability"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Infrastructure",
+            "Platforms",
+            "Applications",
+            "Architecture and Design"
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
-
-
-    ],
+        "name": "Architecture",
+        "text": "Design a strategic cloud, hybrid, or on-premise architecture to solve any modern business challenge."
+    }, {
+        "name": "Infrastructure",
+        "text": "Use infrastructure as code (IaC) techniques to deploy infrastructure in AWS, GCP, Azure, or any other cloud provider."
+    }, {
+        "name": "DevOps",
+        "text": "Provide reliability, observability, and monitoring in your development, staging, and production environments."
+    }, {
+        "name": "Microservices",
+        "text": "Need an application that scales? We have enterprise experience designing and implementing microservices in Python, Java, and Node.js."
+    }, {
+        "name": "Data Science",
+        "text": "We provide state of the art modeling techniques from linear models to deep neural networks."
+    }, {
+        "name": "Data Engineering",
+        "text": "We create fault-tolerant, reliable data pipelines that will move and transform your data from Point A to Point B."
+    }],
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "Evan is a wizard, and you need a wizard on your team. His mastery of data engineering (and data science!) is obvious - he stood up a workflow manager (Argo) inside our existing Kubernetes cluster and built several ETL jobs in under 24 hours. We've now move multi-terabyte, multi-destination flat files automatically, with redundancy and error handling built in. He also provided Java debugging (no sweat) and infrastructure advice that we sorely needed - and we're implementing it all. I'm looking forward to collaborating on our next contract (already started)!!",
+            "name": "Client 1"
         },
         {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "Evan was an excellent communicator and responsive partner on my project. He explained the technical details of his methodology clearly and walked me through each step so I could replicate his steps. Overall, an excellent experience and I will look to partner with him on future projects.",
+            "name": "Client 2"
         },
         {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "Clear in understanding the requirements and proposed solution. The turn around time was awesome! would love working again.",
+            "name": "Client 3"
         },
         {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "Evan provided a complete and thoughtful implementation of what we needed. He met the necessary schedule, and included a working end-to-end example and a writeup of the related steps. It was easy to review and verify. I would happily work with him again.",
+            "name": "Client 4"
         },
         {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "Great problem solver, clearly a very talented programmer.",
+            "name": "Client 5"
         },
         {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "Evan has been extremely helpful for me. Not only was he able to do what he promised to do, but he also had several insightful suggestions along the way. Will definitely work with him again.",
+            "name": "Client 6"
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
+            "img": "img/team/evan.jpeg",
             "name": "Evan Hallmark",
-            "job": "Founder"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "job": "Founder and Owner"
         }, {
-            "img": "img/team/03.jpg",
+            "img": "img/team/kay.jpg",
             "name": "Kay Hallmark",
-            "job": "Executive"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "job": "Manager"
         }
     ],
     "Contact": {
         "address": "Portland, OR",
-        "phone": "+1 503 555 5555",
+        "phone": "+1 503-404-3282",
         "email": "info@ehallmarksolutions.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
-    },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-    ]
+        "facebook": "https://www.facebook.com/EHallmark-Solutions-LLC-103917078361055",
+        "linkedin": "https://www.linkedin.com/company/ehallmark-solutions-llc/about/?viewAsMember=true",
+        "upwork": "https://www.upwork.com/fl/ehallmarksolutions",
+        "github": "https://github.com/ehallmarksolutions"
+    }
 }

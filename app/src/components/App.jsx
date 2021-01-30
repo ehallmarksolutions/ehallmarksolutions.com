@@ -38,10 +38,8 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.resumeData.Header}/>
-        <Features data={this.state.resumeData.Features}/>
         <About  data={this.state.resumeData.About}/>
-        <Services  data={this.state.resumeData.Services}/>
-        <Gallery />
+        <Services data={this.state.landingPageData.Services} />
         <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>
         <Contact  data={this.state.resumeData.Contact}/>
